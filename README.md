@@ -10,3 +10,4 @@ This project utilizes the following technologies:
 # Setup Instructions
 *Clone the Repository*:
 git clone https://github.com/Baala-Murugan-K/Landingpage.git
+cd Landingpage
