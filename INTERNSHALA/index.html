@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Study MBBS Abroad - Explore top countries and programs.">
+    <title>Study MBBS Abroad</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="main-container">
+    <!-- Hero Section -->
+    <header class="bg-dark text-white text-center py-5">
+        <h1 class="head1-sec">Study <span class="special-hero">MBBS</span> Abroad</h1>
+        <p class="lead">Apply Now for <span class="special-hero">MBBS</span> Abroad</p>
+        <a href="#leadForm" class="btn btn-light btn-lg button">Get Started</a>
+    </header>
+
+    <!-- Why Study MBBS Abroad -->
+    <section class="container my-5">
+        <h2 class="head2">Why Study <span class="special-hero">MBBS</span> Abroad?</h2>
+        <ul >
+            <li class="li-1">International exposure</li>
+            <li class="li-1">Affordable tuition fees</li>
+            <li class="li-1">Quality education</li>
+            <li class="li-1">Global recognition of degrees</li>
+        </ul>
+    </section>
+
+    <!-- Top Countries -->
+    <section class="container my-5 text-center">
+        <h2 class="top-c">Top Countries</h2>
+        <div class="row">
+            <div class="col-12 col-md-4 col-lg-3">
+                <h4>Russia</h4>
+            </div>
+            <div class=" col-12 col-md-4 col-lg-3">
+                <h4>Uzbekistan</h4>
+            </div>
+            <div class=" col-12 col-md-4 col-lg-3">
+                <h4>Kazakhstan</h4>
+            </div>
+            <div class=" col-12 col-md-4 col-lg-3">
+                <h4>Philippines</h4>
+            </div>
+            <div class="col-12 col-md-4 col-3">
+                <h4>Georgia</h4>
+            </div>
+            <div class="col-12 col-md-4 col-3">
+                <h4>Kyrgyzstan</h4>
+            </div>
+            <div class="col-12 col-md-4 col-3">
+                <h4>Egypt</h4>
+            </div>
+        </div>
+    </section>
+
+    <!-- Admission Process & Eligibility -->
+    <section class="container my-5">
+        <h2 class="ad-head">Admission Process & Eligibility</h2>
+        <p class="ad-para">Follow these steps to apply:</p>
+        <ol>
+            <li class="ad-li">Research your preferred country and university.</li>
+            <li class="ad-li">Check eligibility criteria.</li>
+            <li class="ad-li">Prepare necessary documents.</li>
+            <li class="ad-li">Submit your application.</li>
+            <li class="ad-li">Receive admission confirmation.</li>
+        </ol>
+    </section>
+
+    <!-- call to action -->
+    <section class="container my-5" id="leadForm">
+        <h2 class="form-head">Get More Information</h2>
+        <form id="contactForm">
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" class="form-control" id="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" class="form-control" id="email" required>
+            </div>
+            <div class="form-group">
+                <label for="phone">Phone</label>
+                <input type="tel" class="form-control" id="phone" required>
+            </div>
+            <div class="form-group">
+                <label for="country">Country Preference</label>
+                <select class="form-control" id="country" required>
+                    <option value="">Select a country</option>
+                    <option value="Russia">Russia</option>
+                    <option value="Uzbekistan">Uzbekistan</option>
+                    <option value="Kazakhstan">Kazakhstan</option>
+                    <option value="Philippines">Philippines</option>
+                    <option value="Georgia">Georgia</option>
+                    <option value="Kyrgyzstan">Kyrgyzstan</option>
+                    <option value="Egypt">Egypt</option>
+                </select>
+            </div>
+            <button type="submit" class="btn btn-primary button-3">Submit</button>
+        </form>
+        <div id="formResponse" class="mt-3 "alert alert-success" style="display:none;"></div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-3">
+        <p>&copy; 2025 Study MBBS Abroad. All rights reserved.</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+</div>
+</body>
+</html>

@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+   
+}
+.main-container{
+
+ 
+}
+h2 {
+    margin-bottom: 20px;
+}
+
+footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+.button:hover{
+    background-color:aqua;
+}
+.head1-sec{
+    color:bisque;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.head2{
+    color:rgb(62, 226, 199);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+}
+.special-hero{
+    color:rgb(248, 13, 232);
+}
+.li-1{
+    color:rgb(241, 169, 161);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 22px;
+}
+.top-c{
+    color:rgb(62, 226, 163);
+    font-weight: bold;
+}
+h4{
+    color:blueviolet;
+}
+.ad-head{
+    color:rgb(239, 134, 134);
+    font-weight: bold;
+}
+.ad-para{
+    color:rgb(255, 80, 176);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+}
+.ad-li{
+    color:cornflowerblue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+.form-head{
+    color:aqua;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+.button-3:hover{
+    background-color: turquoise;
+}
