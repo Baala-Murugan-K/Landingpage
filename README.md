@@ -7,3 +7,6 @@ This project utilizes the following technologies:
 - **CSS**: Styled using Bootstrap for responsive design and layout.
 - **JavaScript**: For form validation and interactivity.
 - **Bootstrap**: A popular CSS framework that helps in creating responsive and mobile-first websites.
+# Setup Instructions
+*Clone the Repository*:
+git clone https://github.com/Baala-Murugan-K/Landingpage.git
